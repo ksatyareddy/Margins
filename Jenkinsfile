@@ -6,7 +6,7 @@ pipeline    {
               echo  'Hi, This is satya'
       }
     }
-    Stage('Two') {
+    stage('Two') {
       steps {
               input('Do you want to proceed')
       }
